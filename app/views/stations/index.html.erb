@@ -19,7 +19,7 @@
         <td><%= station.railway_line %></td>
         <td><%= station.station_name %></td>
         <td><%= station.minutes_walk %></td>
-        <td><%= station.property.property %></td>
+        <td><%= station.property %></td>
         <td><%= link_to 'Detail', station %></td>
         <td><%= link_to 'Edit', edit_station_path(station) %></td>
         <td><%= link_to 'Delete', station, method: :delete, data: { confirm: 'Are you sure?' } %></td>
