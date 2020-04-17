@@ -5,3 +5,4 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+Property.create(property: 'Hibikino Appartment', rent:70000, address: 'Hibikino, Wakamatsu, Kitakyushu-shi', building_age: 10, remarks: 'A credit card transaction is possible')
