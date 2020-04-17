@@ -46,6 +46,6 @@ class StationsController < ApplicationController
 
 
     def station_params
-      params.require(:station).permit(:rail_way_line, :station_name, :minutes_walk, :property_id)
+      params.require(:station).permit(:railway_line, :station_name, :minutes_walk, :property_id)
     end
 end
